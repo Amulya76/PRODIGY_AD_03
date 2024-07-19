@@ -1,0 +1,72 @@
+/* Base styles for the stopwatch container */
+.stopwatch {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px; /* Limit width to improve readability */
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the display area of the stopwatch */
+.display {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: #333;
+}
+
+/* Styles for the control buttons container */
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+/* Base styles for all control buttons */
+.controls button {
+  margin: 0 10px;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the Start button */
+.start-button {
+  background-color: #28a745;
+}
+
+.start-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px); /* Add slight lift on hover */
+}
+
+/* Styles for the Stop button */
+.stop-button {
+  background-color: #dc3545;
+}
+
+.stop-button:hover {
+  background-color: #c82333;
+  transform: translateY(-2px); /* Add slight lift on hover */
+}
+
+/* Styles for the Reset button */
+.reset-button {
+  background-color: #ffc107;
+}
+
+.reset-button:hover {
+  background-color: #e0a800;
+  transform: translateY(-2px); /* Add slight lift on hover */
+}
